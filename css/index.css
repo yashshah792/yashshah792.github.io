@@ -1,0 +1,53 @@
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.fancy {
+    font-family: 'Monoton', cursive;
+    color: #4848f0
+}
+
+.custom-body-font{
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            text-align: center;
+        }
+}
+
+.fixed-top-2 {
+    margin-top: 63px;
+}
+
+.nav-bottom-border{
+    border-bottom: 1px solid #4848f0;
+}
+
+.navbar-nav > li {
+  float: left;
+  position: relative;
+  font-family: 'VT323', monospace;
+  font-size: 20
+}
+.navbar-light .navbar-nav a:hover:after {
+  border-top: 3px solid #4848f0;
+  color: dimgrey;
+  top: -2px;
+  content: " ";
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+
+.main-container{
+    padding-top: 110px;
+}
