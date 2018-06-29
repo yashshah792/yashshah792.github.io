@@ -1,0 +1,67 @@
+<html>
+<head>
+<title></title>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header"></div>
+
+<div class="container main-container custom-body-font">
+    <div class="row">
+        <div class="col-8">
+                <br>
+                <p id="paragraph_heading"> ~ &nbsp;/ &nbsp;  Work Experience</p>
+            <!-- Adding card code here -->
+
+            <div class="card">
+                    <div class="card-header"> / &nbsp; Motorola Solutions</div>
+                    <div class="card-body">
+                      <p class="card-text">Architect, Design and Develop microservices using NodeJS.<br>
+                            These microservices together will comprise of highly optimised query functionality which will be using in the public safety product developed by Motorola Solutions.
+                            <br>Created a CI/CD workflow in Azure and used Kubernetes cluster in Azure to deploy these microservices. 
+                        </p>
+                    </div>
+            </div>
+            <br>
+            <div class="card">
+                    <div class="card-header"> / &nbsp; Atos IT Solutions and Services</div>
+                    <div class="card-body">
+                      <p class="card-text">Design and Develop a common cloud platform to access diffrent cloud provide services from a common platform<br>
+                            Used Javascript and ServiceNow framework.<br>
+                            Worked with the customers as well as the ServiceNow developer to reach to a concensus on design and implementation of the product.
+                        </p>
+                    </div>
+            </div>
+            <br>
+            <div class="card">
+                    <div class="card-header"> / &nbsp; Bharti Consultancy Services</div>
+                    <div class="card-body">
+                      <p class="card-text">
+                                Played role of Product Owner for the collage project named, SVIT Document management system project and learned how to negotiate for the feasibility of the requirements based on Technology, Time and Resources’ skill set.<br>
+                                Document Management System is currently used throughout the institution and saves approximately cost of 2-3 clerks used for document management.<br>
+                                Used ASP.net and c#.
+                      </p>
+                    </div>
+            </div>
+        </div>
+
+
+        <!-- Code for the Side Picture -->
+        <div class="col-4">
+            <br>
+            <img class="main_pic" src="images/main_pic.jpg">
+            <p>
+                <br>Yash Shah
+                <br>Software Engineer at Motorola Solutions
+            </p>
+        </div>
+    </div>
+</div>
+
+<script> 
+        $(function(){
+          $("#header").load("template.html"); 
+        });
+        </script> 
+</body>
+</html>

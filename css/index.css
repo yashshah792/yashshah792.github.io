@@ -15,6 +15,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+.navbar{
+    background-color: white;
+}
+
 @media (min-width: 768px) {
     .navbar-brand.abs
         {
@@ -22,6 +26,7 @@
             width: 100%;
             left: 0;
             text-align: center;
+            background-color: white;
         }
 }
 
@@ -30,7 +35,7 @@
 }
 
 .nav-bottom-border{
-    border-bottom: 1px solid #4848f0;
+    border-bottom: 2px solid #4848f0;
 }
 
 .navbar-nav > li {
@@ -51,10 +56,68 @@
 
 .main-container{
     padding-top: 110px;
+    padding-bottom: 50px;
+    /* background-color: white */
 }
 
 .main_pic{
     width: 350px;
     height: 445px;
     border: #4848f0 4px solid;
+}
+
+body{
+    position: relative;
+}
+
+.footer_my{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: dimgrey;
+    text-align: center;
+    background-color: white;
+}
+
+.f_cont{
+    border-top: 2px solid #4848f0;
+    font-family: 'VT323', monospace;
+}
+
+#paragraph_heading{
+    font-size: 20px
+}
+
+p{
+    text-align: justify
+}
+
+.card-header{
+    background-color: #4848f0;
+    color: white;
+}
+
+.card{
+    border: #4848f0 2px solid
+}
+
+.social-media-image{
+    width: 30px;
+    height: 30px;
+}
+
+.social-media-image-header{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.span-padding{
+    padding-left: 20px;
+}
+
+.p-padding{
+    padding-top: 40px;
 }
